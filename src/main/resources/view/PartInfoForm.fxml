@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="568.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PartInfoFormController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="596.0" prefWidth="939.0">
+         <children>
+            <AnchorPane layoutX="5.0" layoutY="5.0" prefHeight="626.0" prefWidth="929.0" style="-fx-background-color: #1976d2;" styleClass="pane-custom" stylesheets="@../button1.css">
+               <children>
+                  <TableView fx:id="partTableP" layoutX="21.0" layoutY="314.0" prefHeight="295.0" prefWidth="887.0" style="-fx-background-color: #F0ECE5;" styleClass="table-custom" stylesheets="@../button1.css">
+                     <columns>
+                        <TableColumn fx:id="colPartId" prefWidth="142.0" text="Part Code" />
+                        <TableColumn fx:id="colPartName" prefWidth="383.0" text="Part Name" />
+                        <TableColumn fx:id="colPricePart" prefWidth="246.0" text="Price" />
+                        <TableColumn fx:id="colOptionPart" prefWidth="104.0" text="Option" />
+                     </columns>
+                  </TableView>
+                  <Label layoutX="25.0" layoutY="131.0" prefHeight="31.0" prefWidth="118.0" text="Part Name">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="txtPartName" layoutX="194.0" layoutY="131.0" prefHeight="31.0" prefWidth="452.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="txtPartPrice" layoutX="194.0" layoutY="193.0" prefHeight="29.0" prefWidth="452.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXTextField>
+                  <Label layoutX="22.0" layoutY="192.0" prefHeight="21.0" prefWidth="163.0" text="Part Price">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="73.0" prefHeight="21.0" prefWidth="163.0" text="Part Code">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="txtPartCode" layoutX="194.0" layoutY="74.0" prefHeight="29.0" prefWidth="109.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton layoutX="334.0" layoutY="73.0" onAction="#searchBtnPOnAction" style="-fx-background-color: #6066F1;" text="Search">
+                     <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/magnifier_14840.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton layoutX="22.0" layoutY="14.0" prefHeight="40.0" prefWidth="58.0" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="29.0" fitWidth="50.0" onDragDetected="#backBtnOnAvtion" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/back_2099238.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton layoutX="323.0" layoutY="253.0" onAction="#upBtnCOnAction" prefHeight="40.0" prefWidth="109.0" style="-fx-background-color: yellow;" text="Update">
+                     <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/update.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton layoutX="459.0" layoutY="253.0" onAction="#saveBtnCOnAction" prefHeight="40.0" prefWidth="86.0" style="-fx-background-color: #17d978;" text="Save">
+                     <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/download.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton layoutX="570.0" layoutY="253.0" onAction="#refreshBtnCOnAction" prefHeight="40.0" prefWidth="109.0" style="-fx-background-color: orange;" text="Refresh">
+                     <graphic>
+                        <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/refresh-arrow.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

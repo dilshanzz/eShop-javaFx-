@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="628.0" prefWidth="1022.0" style="-fx-background-color: #1976d2;" styleClass="pane-custom" stylesheets="@../button1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserMangementFormController">
+   <children>
+      <TableView fx:id="userTableU" layoutX="32.0" layoutY="301.0" prefHeight="274.0" prefWidth="910.0" styleClass="table-custom" stylesheets="@../button1.css">
+        <columns>
+          <TableColumn fx:id="colEmailu" prefWidth="482.0" text="Email" />
+          <TableColumn fx:id="colUserNameU" prefWidth="178.0" text="UserName" />
+            <TableColumn fx:id="colPasswordU" prefWidth="167.0" text="Passwords" />
+            <TableColumn fx:id="colOptU1" prefWidth="70.0" text="Option" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="32.0" layoutY="24.0" onAction="#backButtonOnAction" prefHeight="40.0" prefWidth="58.0" text=" ">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="50.0" onDragDetected="#backBtnOnAvtion" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/back_2099238.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="55.0" layoutY="108.0" text="Name" />
+      <Label layoutX="55.0" layoutY="160.0" text="Email" />
+      <Label layoutX="57.0" layoutY="215.0" text="Password" />
+      <JFXTextField fx:id="txtNameU" layoutX="202.0" layoutY="103.0" prefHeight="31.0" prefWidth="463.0" />
+      <JFXTextField fx:id="txtEmailU" layoutX="202.0" layoutY="155.0" prefHeight="31.0" prefWidth="463.0" />
+      <JFXTextField fx:id="txtPasswordU" layoutX="202.0" layoutY="210.0" prefHeight="31.0" prefWidth="463.0" />
+      <JFXButton layoutX="511.0" layoutY="252.0" onAction="#registerBtnUOnAction" prefHeight="42.0" prefWidth="105.0" style="-fx-background-color: #008b02;" text="Register">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="640.0" layoutY="253.0" onAction="#refreshBtnUOnAction" prefHeight="40.0" prefWidth="109.0" style="-fx-background-color: orange;" text="Refresh">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/refresh-arrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="762.0" layoutY="252.0" onAction="#adminBtnOnAction" prefHeight="42.0" prefWidth="175.0" style="-fx-background-color: #ff6900;" text="Admin Details">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

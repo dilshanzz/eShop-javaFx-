@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="udbPane" prefHeight="638.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DefaultUserDashBoardFormController">
+   <children>
+      <AnchorPane layoutY="7.0" prefHeight="626.0" prefWidth="910.0" style="-fx-background-color: #030637;" styleClass="pane-custom" stylesheets="@../button1.css">
+         <children>
+            <Label layoutX="56.0" prefHeight="136.0" prefWidth="826.0" styleClass="label-fx" stylesheets="@../button1.css" text="      Dashboard" textFill="#f2e6e6">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtTime2" layoutX="516.0" layoutY="543.0" prefHeight="73.0" prefWidth="288.0" styleClass="label-fx1" stylesheets="@../button1.css" text="HH:MM:SS" textFill="#2d2de8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="168.0" layoutY="166.0" onAction="#orderBtn2Onaction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: white;" styleClass="button-fx" stylesheets="@../button1.css" text="Orders" textFill="#fffffb" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/shopping-cart_4824141.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="349.0" layoutY="166.0" onAction="#itemBtn2OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Items" textFill="#fffffb" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/electronics.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="517.0" layoutY="166.0" onAction="#cusBtn2OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229whiteCB;" styleClass="button-fx" stylesheets="@../button1.css" text="Customers" textFill="#fffffb" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/customer_686348.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="688.0" layoutY="166.0" onAction="#inventBtn2OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Parts" textFill="#fffffb" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="64.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/replacement.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="254.0" layoutY="426.0" onAction="#addOdrBtn2OnAction" opacity="0.47" prefHeight="94.0" prefWidth="348.0" style="-fx-background-color: white;" styleClass="button-fx" stylesheets="@../button1.css" text="Add Order" textFill="#fffffb" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView accessibleRole="BUTTON" fitHeight="46.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/online-shopping.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton layoutX="168.0" layoutY="520.0" onAction="#cpBtn2OnAction" prefHeight="61.0" prefWidth="51.0" style="-fx-background-color: #6066F1;" styleClass="button-fx-1" stylesheets="@../button1.css" text=" " textFill="#f2f2f2">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/change-password_8091962.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton layoutX="83.0" layoutY="520.0" onAction="#logoutBtn2OnAction" prefHeight="61.0" prefWidth="51.0" style="-fx-background-color: #990D0D;" styleClass="button-fx-1" stylesheets="@../button1.css" text=" " textFill="#f2f2f2">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/exit-hand-drawn-interface-symbol_35805.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

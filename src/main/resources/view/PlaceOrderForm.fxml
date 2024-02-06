@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="687.0" prefWidth="843.0" style="-fx-background-color: #1976d2;" styleClass="pane-custom" stylesheets="@../button1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PlaceOrderFormController">
+   <children>
+      <Label layoutX="26.0" layoutY="285.0" prefHeight="31.0" prefWidth="121.0" text="Item Name">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtDescriptionPO" layoutX="219.0" layoutY="333.0" prefHeight="29.0" prefWidth="452.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="26.0" layoutY="351.0" prefHeight="21.0" prefWidth="163.0" text="Description">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="406.0" prefHeight="31.0" prefWidth="121.0" text="Category">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtOrderIDPO" layoutX="219.0" layoutY="464.0" prefHeight="29.0" prefWidth="148.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="26.0" layoutY="467.0" prefHeight="21.0" prefWidth="163.0" text="Order Id">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="147.0" prefHeight="31.0" prefWidth="163.0" text="Customer Name">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtCustomerNamePO" layoutX="219.0" layoutY="144.0" prefHeight="31.0" prefWidth="452.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtEmailPO" layoutX="219.0" layoutY="219.0" prefHeight="29.0" prefWidth="452.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="26.0" layoutY="218.0" prefHeight="21.0" prefWidth="163.0" text="E-mail">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="73.0" prefHeight="31.0" prefWidth="185.0" text="Customer Contact">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtCustomerIdPO" layoutX="219.0" layoutY="62.0" prefHeight="31.0" prefWidth="148.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="25.0" layoutY="525.0" prefHeight="21.0" prefWidth="163.0" text="Date">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDatePO" layoutX="219.0" layoutY="528.0" prefHeight="21.0" prefWidth="163.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="178.0" layoutY="579.0" onAction="#placeBtnOnAction" prefHeight="50.0" prefWidth="163.0" style="-fx-background-color: #21c927;" text="Place Order">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="26.0" layoutY="14.0" onAction="#backBtnOnAction" prefHeight="40.0" prefWidth="58.0" text=" ">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="50.0" onDragDetected="#backBtnOnAvtion" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/back_2099238.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="433.0" layoutY="579.0" onAction="#cancelBtnOnAction" prefHeight="50.0" prefWidth="163.0" style="-fx-background-color: #d7450c;" text="Cancel">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="445.0" layoutY="67.0" onAction="#searchBtn1OnAction" prefHeight="44.0" prefWidth="121.0" style="-fx-background-color: #1e5292;" text="Search">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/magnifier_14840.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXComboBox fx:id="txtItemNameCb" layoutX="219.0" layoutY="285.0" prefHeight="31.0" prefWidth="452.0" promptText="None" />
+      <JFXTextField fx:id="txtCatPo" layoutX="219.0" layoutY="400.0" prefHeight="29.0" prefWidth="452.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>

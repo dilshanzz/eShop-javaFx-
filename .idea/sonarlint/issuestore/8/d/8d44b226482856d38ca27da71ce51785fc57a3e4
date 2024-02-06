@@ -1,0 +1,13 @@
+
+I
+java:S1121".Extract the assignment out of this expression.(‰À°Ûşÿÿÿÿ
+¯
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÄßÜê
+u	java:S131"YComplete cases by adding the missing enum constants or add a default case to this switch.(ÜŸ•8€ª¬ï×1
+X	java:S125"<This block of commented-out lines of code should be removed.(‚ÚÙ™8­ú«Û×1
+V	java:S125"<This block of commented-out lines of code should be removed.(ï‰¼Èúÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(»Áîk
+\
+java:S1128":Remove this unused import 'bo.Custom.impl.CustomerBoImpl'.(…õàûÿÿÿÿ8ª¬ï×1
+U
+java:S1128"3Remove this unused import 'dao.custom.CustomerDao'.(‰‡¬«úÿÿÿÿ8ª¬ï×1

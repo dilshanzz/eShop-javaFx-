@@ -1,0 +1,62 @@
+.button-fx{
+    -fx-background-radius: 20,0,0,20;
+    -fx-background-color: white  !important;
+    -fx-color-label-visible: 100;
+    -fx-text-fill: rgba(0, 0, 0, 1.0);
+    -fx-text-overrun: ellipsis;
+}
+
+.button-fx-1{
+    -fx-background-radius: 14,0,0,14;
+    -fx-color-label-visible: 100;
+    -fx-text-fill: rgba(255, 255, 255, 1.0);
+    -fx-text-overrun: ellipsis;
+    -fx-font-weight: 800;
+}
+
+.label-fx {
+    -fx-font-weight: 900;
+    -fx-font-size: 90;
+}
+.label-fx1 {
+    -fx-font-weight: 900;
+    -fx-font-size: 50;
+}
+
+.button-fx2{
+    -fx-background-radius: 20,0,0,20;
+    -fx-background-color:  #2229CB !important;
+    -fx-color-label-visible: 100;
+    -fx-text-overrun: ellipsis;
+    -fx-text-fill: rgba(0, 0, 0, 1.0);
+}
+
+.log-fx{
+    -fx-background-radius: 13,0,0,13;
+    -fx-font-weight: 800;
+}
+
+.pane-custom{
+    -fx-border-width: 5;
+    -fx-border-radius:30,0,0,30 ;
+    -fx-background-radius: 30,0,0,30;
+    -fx-border-color: white;
+}
+
+.pane-custom2{
+    -fx-border-width: 1;
+    -fx-border-radius:10,0,0,10 ;
+    -fx-background-radius: 10,0,0,10;
+    -fx-border-color: white;
+}
+
+.table-custom{
+    -fx-border-width: 5;
+    -fx-border-radius:15,15,0,0 ;
+    -fx-background-radius: 30,0,0,30;
+    -fx-border-color: black;
+}
+.cart-custom{
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
