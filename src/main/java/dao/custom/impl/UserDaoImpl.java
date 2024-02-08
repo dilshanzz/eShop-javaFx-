@@ -4,7 +4,9 @@ import dao.custom.UserDao;
 import dao.util.HibernateUtil;
 import entity.User;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
 import java.sql.SQLException;
@@ -48,6 +50,23 @@ public class UserDaoImpl implements UserDao {
         list = query.getResultList();
         session.close();;
         return list;
+    }
+
+    @Override
+    public void updatePassword(String email, String np) {
+        Session session = HibernateUtil.getSession();
+        Transaction transaction = session.beginTransaction();
+        Query query = session.createQuery("UPDATE User SET password = :np WHERE eMail = :email");
+        query.setParameter("np", np);
+        query.setParameter("email", email);
+
+        query.executeUpdate(); // Execute the update query
+
+        transaction.commit();
+            session.close();
+
+
+
     }
 
 }

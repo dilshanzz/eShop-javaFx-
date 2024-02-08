@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="adbPane" prefHeight="591.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdmindashBoardFormcontroller">
    <children>
       <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="626.0" prefWidth="910.0" style="-fx-background-color: #030637;" styleClass="pane-custom" stylesheets="@../button1.css">
@@ -38,6 +37,13 @@
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/electronics.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
             <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="517.0" layoutY="166.0" onAction="#cusBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229whiteCB;" styleClass="button-fx" stylesheets="@../button1.css" text="Customers" textFill="#fffffb" textOverrun="CLIP">
                <font>
@@ -55,6 +61,13 @@
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/replacement.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
             <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="254.0" layoutY="426.0" onAction="#addOdrBtn1OnAction" opacity="0.47" prefHeight="94.0" prefWidth="348.0" style="-fx-background-color: white;" styleClass="button-fx" stylesheets="@../button1.css" text="Add Order" textFill="#fffffb" textOverrun="CLIP">
                <font>

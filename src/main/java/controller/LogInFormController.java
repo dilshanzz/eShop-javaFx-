@@ -33,17 +33,10 @@ public class LogInFormController {
 
 
 
-    public String getUserRole(){
-        return userRole;
-    }
-    public void setUserRole(String userRole){
-        this.userRole=userRole;
-
-    }
 
     public String userControl() {
-        String email = txtPassword.getText();
-        String password = txtEmail.getText();
+        String email = txtEmail.getText();
+        String password = txtPassword.getText();
 
         AuserDao auserDao = DaoFactory.getInstance().getDao(DaoType.AUSER);
 
@@ -54,13 +47,13 @@ public class LogInFormController {
 
             for (Auser auser:list2) {
                 if(email.equals(auser.getMail()) && password.equals(auser.getPassword())){
-                   setUserRole("Admin");
+                    UserRoleContext.setUserRole("Admin");
                     return "Admin";
                 }
             }
             for (User user:list3) {
                 if(email.equals(user.geteMail()) && password.equals(user.getPassword())){
-                    setUserRole("User");
+                    UserRoleContext.setUserRole("User");
                     return "User";
                 }
             }
@@ -69,20 +62,22 @@ public class LogInFormController {
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
+
         return "None";
     }
 
     public void logInBtnOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
-       ShareData shareData = new ShareData();
-       shareData.user(txtPassword.getText());
         String user = userControl();
+        UserRoleContext.setUserRole(user);
 
         if(user .equals("Admin") ) {
             showAdminDashBoard();
+
         }else if(user.equals("User")){
             showUserDashBoard();
         }else{
             new Alert(Alert.AlertType.ERROR,"Invalid mail or password try again!...").show();
+            clearFields();
         }
     }
     public void showUserDashBoard() {
@@ -108,6 +103,7 @@ public class LogInFormController {
     }
 
     public void showAdminDashBoard(){
+        UserRoleContext.setEmail(txtEmail.getText());
         try {
             Stage stage = (Stage) logInForm.getScene().getWindow();
 
@@ -129,6 +125,34 @@ public class LogInFormController {
     }
 
     public void forgetBtnOnAction(ActionEvent actionEvent) {
+        UserRoleContext.setEmail(txtEmail.getText());
+        if(txtEmail.getText() ==null){
+            new Alert(Alert.AlertType.ERROR,"Enter an email ").show();
+            clearFields();
+        }
 
+        try {
+            Stage stage = (Stage) logInForm.getScene().getWindow();
+
+            Parent root =  FXMLLoader.load(getClass().getResource("/view/OTPForm.fxml"));
+            Scene scene = new Scene(root);
+            if (scene != null) {
+
+                scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
+
+                stage.setScene(scene);
+                stage.setTitle("Admin Dashboard");
+                stage.show();
+            } else {
+                System.err.println("Error: Scene is null");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void clearFields() {
+        txtEmail.clear();
+        txtPassword.clear();
     }
 }

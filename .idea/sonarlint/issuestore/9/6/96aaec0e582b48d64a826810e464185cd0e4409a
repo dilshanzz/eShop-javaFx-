@@ -1,29 +1,46 @@
 
-g	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8èÊ¿à×1
-g	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8éÊ¿à×1
-b
-java:S11929"FDefine a constant instead of duplicating this literal "Admin" 3 times.(ó·î8éÊ¿à×1
+g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜¯ÝÇØ1
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8˜¯ÝÇØ1
 w
-java:S1104"UMake logInForm a static final constant or non-public and provide accessors if needed.(å›Šüÿÿÿÿ8êÊ¿à×1
+java:S1192b"UDefine a constant instead of duplicating this literal "Error: Scene is null" 3 times.(…êÜÚÿÿÿÿÿ8™¯ÝÇØ1
+h
+java:S11922"FDefine a constant instead of duplicating this literal "Admin" 3 times.(ÛÛ©Ñúÿÿÿÿ8™¯ÝÇØ1
+j
+java:S1192\"MDefine a constant instead of duplicating this literal "/button1.css" 3 times.(ˆ©º˜8™¯ÝÇØ1
+w
+java:S1104"UMake logInForm a static final constant or non-public and provide accessors if needed.(å›Šüÿÿÿÿ8š¯ÝÇØ1
 v
-java:S1104"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8êÊ¿à×1
+java:S1104"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8š¯ÝÇØ1
 y
-java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8êÊ¿à×1
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8š¯ÝÇØ1
 v
-java:S1104 "TMake userRole a static final constant or non-public and provide accessors if needed.(×à¤Éùÿÿÿÿ8êÊ¿à×1
+java:S1104 "TMake userRole a static final constant or non-public and provide accessors if needed.(×à¤Éùÿÿÿÿ8š¯ÝÇØ1
 `
-java:S2583t"CChange this condition so that it does not always evaluate to "true"(µ„ü…8±Ë¿à×1
-`
-java:S2583_"CChange this condition so that it does not always evaluate to "true"(µ„ü…8±Ë¿à×1
-¤
-java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îäíÞúÿÿÿÿ8³Ë¿à×1
-Q
-java:S2440"/Remove this instantiation of "UserRoleContext".(×÷ŒËþÿÿÿÿ8µË¿à×1
+java:S2583Z"CChange this condition so that it does not always evaluate to "true"(µ„ü…8à¯ÝÇØ1
 a
-java:S2147E"DCombine this catch with the one at line 67, which has the same body.(ýàÑÎ8¸Ë¿à×1
+java:S2583‹"CChange this condition so that it does not always evaluate to "true"(µ„ü…8à¯ÝÇØ1
+`
+java:S2583p"CChange this condition so that it does not always evaluate to "true"(µ„ü…8à¯ÝÇØ1
+Q
+java:S2440"/Remove this instantiation of "UserRoleContext".(×÷ŒËþÿÿÿÿ8â¯ÝÇØ1
+a
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(ýàÑÎ8ä¯ÝÇØ1
+‹
+java:S1130E"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(–˜õû8æ¯ÝÇØ1
+–
+java:S1130E"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(–˜õû8æ¯ÝÇØ1
 O
-java:S1172K"2Remove this unused method parameter "actionEvent".(–˜õû8½Ë¿à×1
-L	java:S106g"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ÌË¿à×1
-L	java:S106|"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ÏË¿à×1
+java:S1172E"2Remove this unused method parameter "actionEvent".(–˜õû8æ¯ÝÇØ1
+L	java:S106b"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8î¯ÝÇØ1
+L	java:S106x"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ñ¯ÝÇØ1
+T
+java:S1172"2Remove this unused method parameter "actionEvent".(îäíÞúÿÿÿÿ8ñ¯ÝÇØ1
+M	java:S106“"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ó¯ÝÇØ1
+F
+java:S1128")Remove this unused import 'dto.AuserDto'.(†¤Àæ8ô¯ÝÇØ1
+J
+java:S1128	"(Remove this unused import 'dto.UserDto'.(Â‚ˆêÿÿÿÿÿ8ô¯ÝÇØ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ô¯ÝÇØ1
 K
-java:S1068")Remove this unused "root1" private field.(“®²ûÿÿÿÿÿ8ÑË¿à×1
+java:S1068")Remove this unused "root1" private field.(“®²ûÿÿÿÿÿ8ô¯ÝÇØ1

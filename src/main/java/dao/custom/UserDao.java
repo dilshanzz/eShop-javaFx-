@@ -12,4 +12,6 @@ public interface UserDao extends CrudDao<User> {
 
 
     List<User> getAll() throws SQLException, ClassNotFoundException;
+
+    void updatePassword(String email, String np);
 }

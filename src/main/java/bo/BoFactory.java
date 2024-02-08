@@ -18,8 +18,7 @@ public class BoFactory {
             case PART:return  (T) new PartBoImpl();
             case AUSER: return (T) new AuserBoImpl();
             case ITEM:return (T) new ItemBompl();
-//            case ORDERDATA:return (T) new OrderDataBoImpl();
-            case USEDPARTS:return (T) new UsedPartsBoImpl();
+            case ORDERDATA:return (T) new OrderDataBoImpl();
 //            case REPORTS:return null;
         }
         return null;

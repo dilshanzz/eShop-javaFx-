@@ -1,6 +1,5 @@
 package controller;
 
-
 import bo.BoFactory;
 import bo.Custom.CustomerBo;
 import com.jfoenix.controls.JFXButton;
@@ -21,7 +20,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -30,8 +28,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerFormController {
-    @FXML
-    private AnchorPane customerPane;
 
     public TableView<CustomerTm> customerTableC;
     @FXML
@@ -138,7 +134,44 @@ public class CustomerFormController {
     }
 
     public void backBtnOnAvtion(ActionEvent actionevent) {
+        String user = UserRoleContext.getUserRole();
+        System.out.println(UserRoleContext.getUserRole());
+        try {
+            if (user.equals("Admin")){
+                Stage stage = (Stage) customerTableC.getScene().getWindow();
 
+                Parent root1 =  FXMLLoader.load(getClass().getResource("/view/AdmindashBoardForm.fxml"));
+                Scene scene = new Scene(root1);
+                if (scene != null) {
+
+                    scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
+
+                    stage.setScene(scene);
+                    stage.setTitle("Admin Dashboard");
+                    stage.show();
+                } else {
+                    System.err.println("Error: Scene is null");
+                }
+            }else{
+                Stage stage = (Stage) customerTableC.getScene().getWindow();
+
+                Parent root2 =  FXMLLoader.load(getClass().getResource("/view/DefaultUserDashBoardForm.fxml"));
+                Scene scene = new Scene(root2);
+                if (scene != null) {
+
+                    scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
+
+                    stage.setScene(scene);
+                    stage.setTitle("User Dashboard");
+                    stage.show();
+                } else {
+                    System.err.println("Error: Scene is null");
+                }
+            }
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void upBtnCOnAction(ActionEvent actionEvent) {
@@ -196,52 +229,5 @@ public class CustomerFormController {
         txtEmailC.clear();
         txtNameN.clear();
         txtCustIdC.setEditable(true);
-    }
-
-    public String userControl(String user) {
-        return user;
-    }
-
-    public void backBtnOnAction(ActionEvent actionEvent) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/LogInForm.fxml"));
-        try {
-            Parent root = loader.load();
-            LogInFormController controller = loader.getController();
-            String user = controller.getUserRole();
-            if (user.equals("Admin")){
-                Stage stage = (Stage) customerPane.getScene().getWindow();
-
-                Parent root1 =  FXMLLoader.load(getClass().getResource("/view/AdmindashBoardForm.fxml"));
-                Scene scene = new Scene(root);
-                if (scene != null) {
-
-                    scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
-
-                    stage.setScene(scene);
-                    stage.setTitle("Admin Dashboard");
-                    stage.show();
-                } else {
-                    System.err.println("Error: Scene is null");
-                }
-            }else{
-                Stage stage = (Stage) customerPane.getScene().getWindow();
-
-                Parent root2 =  FXMLLoader.load(getClass().getResource("/view/DefaultUserDashBoardForm.fxml"));
-                Scene scene = new Scene(root);
-                if (scene != null) {
-
-                    scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
-
-                    stage.setScene(scene);
-                    stage.setTitle("User Dashboard");
-                    stage.show();
-                } else {
-                    System.err.println("Error: Scene is null");
-                }
-            }
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
     }
 }

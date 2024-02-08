@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="customerPane" prefHeight="626.0" prefWidth="929.0" style="-fx-background-color: #1976d2;" styleClass="pane-custom" stylesheets="@../button1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+<AnchorPane prefHeight="626.0" prefWidth="929.0" style="-fx-background-color: #1976d2;" styleClass="pane-custom" stylesheets="@../button1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
    <children>
       <TableView fx:id="customerTableC" layoutX="21.0" layoutY="314.0" prefHeight="295.0" prefWidth="887.0" style="-fx-background-color: #F0ECE5;" styleClass="table-custom" stylesheets="@../button1.css">
         <columns>
@@ -59,7 +59,7 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton layoutX="22.0" layoutY="14.0" onAction="#backBtnOnAction" prefHeight="40.0" prefWidth="58.0" text=" ">
+      <JFXButton layoutX="22.0" layoutY="14.0" prefHeight="40.0" prefWidth="58.0" text=" ">
          <graphic>
             <ImageView fitHeight="29.0" fitWidth="50.0" onDragDetected="#backBtnOnAvtion" pickOnBounds="true" preserveRatio="true">
                <image>

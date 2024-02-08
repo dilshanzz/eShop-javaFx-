@@ -48,4 +48,19 @@ public class AuserDaoImpl implements AuserDao {
         session.close();
         return list;
     }
+
+    @Override
+    public void updatePassword(String email, String np) {
+        Session session = HibernateUtil.getSession();
+        Transaction transaction = session.beginTransaction();
+        Query query = session.createQuery("UPDATE Auser SET password = :np WHERE mail = :email");
+        query.setParameter("np", np);
+        query.setParameter("email", email);
+
+        query.executeUpdate(); // Execute the update query
+
+        transaction.commit();
+        session.close();
+
+    }
 }

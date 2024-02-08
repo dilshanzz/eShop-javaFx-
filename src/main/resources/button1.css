@@ -33,7 +33,11 @@
 
 .log-fx{
     -fx-background-radius: 13,0,0,13;
-    -fx-font-weight: 800;
+    -fx-font-weight: 500;
+}
+.log-btns{
+    -fx-background-radius: 13,0,0,13;
+    -fx-font-weight: 500;
 }
 
 .pane-custom{
@@ -41,6 +45,13 @@
     -fx-border-radius:30,0,0,30 ;
     -fx-background-radius: 30,0,0,30;
     -fx-border-color: white;
+}
+
+.pane-custom3{
+    -fx-border-width: 5;
+    -fx-border-radius:30,0,0,30 ;
+    -fx-background-radius: 30,0,0,30;
+    -fx-border-color: black;
 }
 
 .pane-custom2{

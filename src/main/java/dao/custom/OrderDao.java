@@ -7,5 +7,4 @@ import entity.Orders;
 public interface OrderDao extends CrudDao<Orders> {
     Orders lastOrder();
 
-
 }

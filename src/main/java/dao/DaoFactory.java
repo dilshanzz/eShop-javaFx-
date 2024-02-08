@@ -18,12 +18,11 @@ public class DaoFactory {
         switch (type){
             case USER: return (T) new UserDaoImpl();
             case CUSTOMER: return (T) new CustomerDaoImpl();
-           // case ORDER: return (T) new OrderDaoImpl();
+            case ORDER: return (T) new OrderDaoImpl();
             case PART: return (T) new PartDaoImpl();
             case AUSER: return (T) new AuserDaoImpl();
             case ITEM: return (T) new ItemDaoImpl();
-//            case ORDERDATA:return (T) new OrderDataDaoImpl();
-            case USEDPARTS:return (T) new UsedPartsImpl();
+            case ORDERDATA:return (T) new OrderDataDaoImpl();
 //            case INVENTORY:return null;
         }
         return null;

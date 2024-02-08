@@ -2,6 +2,7 @@ package controller;
 
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
@@ -73,5 +74,18 @@ public class OrderDataFormController {
     private JFXTextField txtScO;
 
 
+    public void searchBtnOOnAction(ActionEvent actionEvent) {
+    }
 
+    public void backBtnOnAction(ActionEvent actionEvent) {
+    }
+
+    public void refreshBtnOOnAction(ActionEvent actionEvent) {
+    }
+
+    public void upBtnCOnAction(ActionEvent actionEvent) {
+    }
+
+    public void saveBtnOnAction(ActionEvent actionEvent) {
+    }
 }

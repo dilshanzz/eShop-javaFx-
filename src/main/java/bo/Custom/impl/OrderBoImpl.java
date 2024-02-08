@@ -6,9 +6,9 @@ import dao.custom.OrderDao;
 import dao.util.DaoType;
 import dto.OrderDataDto;
 import dto.OrderDto;
-import dto.UsedPartsDto;
+import entity.OrderData;
 import entity.Orders;
-import entity.UsedParts;
+import org.hibernate.criterion.Order;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ public class OrderBoImpl implements OrderBo {
     }
 
     @Override
-    public boolean save(OrderDto orderDto, List<UsedPartsDto> list) throws SQLException, ClassNotFoundException {
+    public boolean save(OrderDto orderDto) throws SQLException, ClassNotFoundException {
         return orderDao.save(new Orders(
                 orderDto.getContact(),
                 orderDto.getCname(),
@@ -34,13 +34,24 @@ public class OrderBoImpl implements OrderBo {
                 orderDto.getOrderId(),
                 orderDto.getDate(),
                 orderDto.getStatus(),
-                orderDto.getPartsPrice(),
-                orderDto.getSc(),
-                orderDto.getTotalAmount()
+                convertToOrderDataList(orderDto.getList())
+
         ));
     }
+    private List<OrderData> convertToOrderDataList(List<OrderDataDto> dataList) {
+        List<OrderData> list = new ArrayList<>();
+        for (OrderDataDto  o: dataList) {
+            list.add( new OrderData(
+                    o.getCode(),
+                    o.getPartsPrice(),
+                    o.getSc(),
+                    o.getTotalAmount()
+            ));
 
 
+        }
+        return list;
+    }
 
 
 }

@@ -67,7 +67,24 @@ public class AdmindashBoardFormcontroller {
     }
 
     public void cpBtn1OnAction(ActionEvent actionEvent) {
+        try {
+            Stage stage = (Stage) adbPane.getScene().getWindow();
 
+            Parent root =  FXMLLoader.load(getClass().getResource("/view/ResetPasswordForm.fxml"));
+            Scene scene = new Scene(root);
+            if (scene != null) {
+
+                scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
+
+                stage.setScene(scene);
+                stage.setTitle("User Dashboard");
+                stage.show();
+            } else {
+                System.err.println("Error: Scene is null");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void muBtnOnAction(ActionEvent actionEvent) {

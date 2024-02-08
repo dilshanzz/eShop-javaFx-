@@ -24,8 +24,7 @@ public class HibernateUtil {
                     .addAnnotatedClass(Part.class)
                     .addAnnotatedClass(Auser.class)
                     .addAnnotatedClass(Item.class)
-                   // .addAnnotatedClass(OrderData.class)
-                    .addAnnotatedClass(UsedParts.class)
+                    .addAnnotatedClass(OrderData.class)
 //                    .addAnnotatedClass((Report.class))
 
 
