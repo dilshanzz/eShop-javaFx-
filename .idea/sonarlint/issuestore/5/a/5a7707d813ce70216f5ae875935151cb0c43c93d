@@ -1,0 +1,12 @@
+
+g	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8€ƒ“ÅØ1
+`
+java:S2583Z"CChange this condition so that it does not always evaluate to "true"(µ„ü…8  ÅØ1
+d
+java:S18540"BRemove this useless assignment to local variable "expirationTime".(±‹úÿÿÿÿ8Æƒ“ÅØ1
+U
+java:S14810"3Remove this unused "expirationTime" local variable.(±‹úÿÿÿÿ8Çƒ“ÅØ1
+G	java:S106I"+Replace this use of System.out by a logger.(ĞŸŞÉ8Îƒ“ÅØ1
+O
+java:S1172S"2Remove this unused method parameter "actionEvent".(½¶ ë8² ÅØ1
+L	java:S106b"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8½ ÅØ1

@@ -1,0 +1,17 @@
+
+Q
+java:S37401"/Provide the parametrized type for this generic.(â¦Ñ«üÿÿÿÿ8½æ•ÆØ1
+Q
+java:S3740;"/Provide the parametrized type for this generic.(íÕÔÏıÿÿÿÿ8½æ•ÆØ1
+T
+java:S1854"7Remove this useless assignment to local variable "sql".(¿™€—8Öæ•ÆØ1
+E
+java:S1481"(Remove this unused "sql" local variable.(¿™€—8×æ•ÆØ1
+U
+java:S1854/"8Remove this useless assignment to local variable "list".(öü¥‹8Ûæ•ÆØ1
+9
+java:S11163"Remove this empty statement.(ù”šğ8İæ•ÆØ1
+[
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬şÿÿÿÿ8Ù¢ÇØ1
+Y
+java:S1128	"<Remove this unused import 'org.hibernate.cfg.Configuration'.(ö¬ä8Ù¢ÇØ1

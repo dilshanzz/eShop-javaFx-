@@ -1,0 +1,37 @@
+
+p
+java:S11927"UDefine a constant instead of duplicating this literal "Error: Scene is null" 6 times.(…êÜÚÿÿÿÿÿ
+c
+java:S11921"MDefine a constant instead of duplicating this literal "/button1.css" 6 times.(ˆ©º˜
+Y
+java:S2583D"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+Y
+java:S2583Y"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+Y
+java:S2583n"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+Z
+java:S2583˜"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+Y
+java:S2583/"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+a
+java:S2583‚"CChange this condition so that it does not always evaluate to "true"(µ„ü…8¬¯ïÈØ1
+
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³¾ùÑıÿÿÿÿ
+H
+java:S1172)"2Remove this unused method parameter "actionEvent".(Ú¹Œ¬
+E	java:S1067"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
+G
+java:S1172>"2Remove this unused method parameter "actionEvent".(½¸ 2
+E	java:S106L"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
+H
+java:S1172S"2Remove this unused method parameter "actionEvent".(â¤¥å
+E	java:S106a"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
+M
+java:S1172h"2Remove this unused method parameter "actionEvent".(›è‘İşÿÿÿÿ
+E	java:S106u"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
+M
+java:S1172|"2Remove this unused method parameter "actionEvent".(÷°©ºøÿÿÿÿ
+F	java:S106Š"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
+U
+java:S1172‘"2Remove this unused method parameter "actionEvent".(ã™˜±ùÿÿÿÿ8êğîÈØ1
+M	java:S106 "+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ìğîÈØ1

@@ -1,0 +1,19 @@
+
+g	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â¨ÀÈØ1
+g	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ã¨ÀÈØ1
+g	java:S112e"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ã¨ÀÈØ1
+c
+java:S1126'"AReplace this if-then-else statement by a single return statement.(±úï˜ıÿÿÿÿ8é©ÀÈØ1
+G
+java:S58695"*Remove duplicates in this character class.(®€ƒÒ8·ŞÈØ1
+R
+java:S63975"5Replace this character class by the character itself.(®€ƒÒ8¸ŞÈØ1
+o
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(½¶ ë8í©ÀÈØ1
+O
+java:S1172<"2Remove this unused method parameter "actionEvent".(½¶ ë8í©ÀÈØ1
+a
+java:S2147b"DCombine this catch with the one at line 96, which has the same body.(ıàÑÎ8î©ÀÈØ1
+a
+java:S2147d"DCombine this catch with the one at line 98, which has the same body.(ï­£Ä8î©ÀÈØ1
+L	java:S106]"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8û©ÀÈØ1

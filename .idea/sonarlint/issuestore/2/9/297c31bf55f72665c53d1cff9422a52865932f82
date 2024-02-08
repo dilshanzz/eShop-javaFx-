@@ -1,0 +1,37 @@
+
+`	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112u"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+l	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«åÜ“øÿÿÿÿ
+7
+java:S1116"Remove this empty statement.(¹¤ùÅÿÿÿÿÿ
+G
+java:S1602>",Remove useless curly braces around statement(Üƒ‘ïþÿÿÿÿ
+Z
+java:S2147d"DCombine this catch with the one at line 98, which has the same body.(ýàÑÎ
+B
+java:S1602[",Remove useless curly braces around statement(ë¹¬
+[
+java:S2147t"ECombine this catch with the one at line 114, which has the same body.(ýàÑÎ
+H
+java:S1172y"2Remove this unused method parameter "actionEvent".(À¤ã×
+\
+java:S2147…"ECombine this catch with the one at line 131, which has the same body.(ýàÑÎ
+q
+java:S2159}"VRemove this call to "equals"; comparisons between unrelated types always return false.(ÑÅ›‚ÿÿÿÿÿ
+N
+java:S1172Š"2Remove this unused method parameter "actionEvent".(·òæöûÿÿÿÿ
+I
+java:S1172¢"2Remove this unused method parameter "actionEvent".(Âä¨¼
+\
+java:S2147²"ECombine this catch with the one at line 176, which has the same body.(ýàÑÎ
+N
+java:S1172·"2Remove this unused method parameter "actionEvent".(úß¶Äúÿÿÿÿ
+\
+java:S2147È"ECombine this catch with the one at line 198, which has the same body.(ýàÑÎ
+I
+java:S1172Ó"2Remove this unused method parameter "actionEvent".(ÒìÈŒ
+>
+java:S1128
+"(Remove this unused import 'entity.Part'.(«ò„´
+U
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ
