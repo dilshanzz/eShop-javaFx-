@@ -1,6 +1,7 @@
 package dto;
 
-import javax.persistence.Id;
+import entity.Part;
+
 import java.util.List;
 
 public class OrderDto {
@@ -15,22 +16,11 @@ public class OrderDto {
     private String date;
     private String status;
 
-    private List<OrderDataDto> list;
+    private List<Part> list;
+
     public OrderDto() {
     }
 
-    public OrderDto(String contact, String cname, String email, String itemName, String description, String category, String orderId, String date, String status,List<OrderDataDto> list) {
-        this.contact = contact;
-        Cname = cname;
-        this.email = email;
-        this.itemName = itemName;
-        this.description = description;
-        this.category = category;
-        this.orderId = orderId;
-        this.date = date;
-        this.status = status;
-        this.list = list;
-    }
     public OrderDto(String contact, String cname, String email, String itemName, String description, String category, String orderId, String date, String status) {
         this.contact = contact;
         Cname = cname;
@@ -43,17 +33,23 @@ public class OrderDto {
         this.status = status;
     }
 
-    public List<OrderDataDto> getList() {
-        return list;
-    }
-
-    public void setList(List<OrderDataDto> list) {
+    public OrderDto(String contact, String cname, String email, String itemName, String description, String category, String orderId, String date, String status, List<Part> list) {
+        this.contact = contact;
+        Cname = cname;
+        this.email = email;
+        this.itemName = itemName;
+        this.description = description;
+        this.category = category;
+        this.orderId = orderId;
+        this.date = date;
+        this.status = status;
         this.list = list;
     }
 
     public String getContact() {
         return contact;
     }
+
 
     public void setContact(String contact) {
         this.contact = contact;
@@ -122,4 +118,12 @@ public class OrderDto {
     public void setStatus(String status) {
         this.status = status;
     }
+
+//    public List<Part> getList() {
+//        return list;
+//    }
+//
+//    public void setList(List<Part> list) {
+//        this.list = list;
+//    }
 }

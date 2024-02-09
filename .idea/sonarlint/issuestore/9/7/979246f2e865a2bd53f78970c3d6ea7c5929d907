@@ -1,11 +1,33 @@
 
-
-java:S1186M"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£•¸¸8ğìıÈØ1
-
-java:S1186P"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªå¨Ò8Á“şÈØ1
-
-java:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(´¢ˆÓ8×·şÈØ1
-
-java:S1186V"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Âä¨¼8îßşÈØ1
-
-java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­×¬‰8Š’ÿÈØ1
+h	java:S112–"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÒßİØ1
+h	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓßİØ1
+h	java:S112¥"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓßİØ1
+h	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÓßİØ1
+Ÿ
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£•¸¸8‡ßİØ1
+Ÿ
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªå¨Ò8‡ßİØ1
+Ÿ
+java:S1186±"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(´¢ˆÓ8‡ßİØ1
+I
+java:S1602\",Remove useless curly braces around statement(òÛóã8“ßİØ1
+c
+java:S2147—"ECombine this catch with the one at line 149, which has the same body.(ıàÑÎ8™ßİØ1
+M	java:S106"+Replace this use of System.out by a logger.(éÁ‰’úÿÿÿÿ8ßİØ1
+M	java:S106‚"+Replace this use of System.out by a logger.(ıÎšÖüÿÿÿÿ8ßİØ1
+H	java:S106ƒ"+Replace this use of System.out by a logger.(¯Â–8ßİØ1
+G	java:S106„"+Replace this use of System.out by a logger.(õ˜Ö8ŸßİØ1
+H	java:S106…"+Replace this use of System.out by a logger.(Á€Ø¨8ŸßİØ1
+H	java:S106†"+Replace this use of System.out by a logger.(Ö—Òƒ8 ßİØ1
+M	java:S106‡"+Replace this use of System.out by a logger.(øíƒÓùÿÿÿÿ8 ßİØ1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(Ç¦´Ü8 ßİØ1
+H	java:S106‰"+Replace this use of System.out by a logger.(Ö—Òƒ8¡ßİØ1
+M	java:S106Š"+Replace this use of System.out by a logger.(µÄñ¯ùÿÿÿÿ8¡ßİØ1
+c
+java:S2147¦"ECombine this catch with the one at line 164, which has the same body.(ıàÑÎ8¤ßİØ1
+_
+java:S1128"=Remove this unused import 'com.jfoenix.controls.JFXComboBox'.(İÅéûÿÿÿÿ8¨ßİØ1
+G
+java:S1128"*Remove this unused import 'entity.Orders'.(Û°ö¦8¨ßİØ1
+Y
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8¨ßİØ1

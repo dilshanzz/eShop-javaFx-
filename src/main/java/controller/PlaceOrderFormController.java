@@ -8,11 +8,10 @@ import bo.Custom.OrderDataBo;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
 import dao.util.BoType;
-import dto.CustomerDto;
-import dto.ItemDto;
-import dto.OrderDataDto;
-import dto.OrderDto;
+import dto.*;
+import dto.tm.OrderTm;
 import entity.Orders;
+import entity.Part;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -65,11 +64,15 @@ public class PlaceOrderFormController {
     CustomerBo customerBo = BoFactory.getInstance().getBo(BoType.CUSTOMER);
 
     public  void  initialize(){
+
         generateId();
         setItemNames();
         addingListners();
 
     }
+
+
+
     private void addingListners() {
         txtItemNameCb.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             updateFielsd();
@@ -140,29 +143,22 @@ public class PlaceOrderFormController {
                 txtItemNameCb != null && !txtItemNameCb.getValue().toString().equals("none") && !txtItemNameCb.getValue().toString().isEmpty()) {
             addCustomer();
 
-            List<OrderDataDto> list = new ArrayList<>();
-            list.add(new OrderDataDto(
-                    "None",
-                    0,
-                    0,
-                    0
-
-            ));
+            List<UsedPartsDto> list = new ArrayList<>();
 
             String status = "Pending";
 
             try {
                 boolean isSaved = orderBo.save(new OrderDto(
+                        txtOrderIDPO.getText(),
                         txtCustomerIdPO.getText(),
                         txtCustomerNamePO.getText(),
                         txtEmailPO.getText(),
                         txtItemNameCb.getValue().toString(),
                         txtDescriptionPO.getText(),
                         txtCatPo.getText(),
-                        txtOrderIDPO.getText(),
                         LocalDateTime.now().format(DateTimeFormatter.ofPattern("YYYY-MM-dd")),
-                        status,
-                        list
+                        status
+
                 ));
 
                 if(isSaved) {

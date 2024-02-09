@@ -19,6 +19,7 @@ public class BoFactory {
             case AUSER: return (T) new AuserBoImpl();
             case ITEM:return (T) new ItemBompl();
             case ORDERDATA:return (T) new OrderDataBoImpl();
+            case USEDPARTS:return (T) new UsedPartsBoImpl();
 //            case REPORTS:return null;
         }
         return null;

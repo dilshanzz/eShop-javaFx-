@@ -1,60 +1,53 @@
 package entity;
 
 import javax.persistence.*;
-import java.util.Set;
+import java.util.List;
+
 
 @Entity
 @Table(name = "orderdata")
 public class OrderData {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-
-    private String code;
-    private double partsPrice;
-    private double sc;
+    private String orderId;
     private double totalAmount;
+    private double serviceCharge;
+    private double partsPrice;
 
-    @ManyToOne
-    @JoinColumn(name = "order_id", nullable = false)
-    private Orders order;
-
-    public OrderData() {
+    @OneToMany(mappedBy = "orderData", cascade = CascadeType.ALL)
+    private List<UsedParts> partList;
+    public OrderData(String orderId, double partsPrice, double serviceCharge, double charge) {
     }
 
-    public OrderData(String code, double partsPrice, double sc, double totalAmount) {
-
-        this.code = code;
+    public OrderData(String orderId, double totalAmount, double serviceCharge, double partsPrice, List<UsedParts> partList) {
+        this.orderId = orderId;
+        this.totalAmount = totalAmount;
+        this.serviceCharge = serviceCharge;
         this.partsPrice = partsPrice;
-        this.sc = sc;
+        this.partList = partList;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(double totalAmount) {
         this.totalAmount = totalAmount;
     }
 
-    public OrderData(String oId, String code, double partsPrice, double sc, double totalAmount, Orders order) {
-
-        this.code = code;
-        this.partsPrice = partsPrice;
-        this.sc = sc;
-        this.totalAmount = totalAmount;
-
+    public double getServiceCharge() {
+        return serviceCharge;
     }
 
-    public Orders getOrder() {
-        return order;
-    }
-
-    public void setOrder(Orders order) {
-        this.order = order;
-    }
-
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
+    public void setServiceCharge(double serviceCharge) {
+        this.serviceCharge = serviceCharge;
     }
 
     public double getPartsPrice() {
@@ -65,19 +58,11 @@ public class OrderData {
         this.partsPrice = partsPrice;
     }
 
-    public double getSc() {
-        return sc;
+    public List<UsedParts> getPartList() {
+        return partList;
     }
 
-    public void setSc(double sc) {
-        this.sc = sc;
-    }
-
-    public double getTotalAmount() {
-        return totalAmount;
-    }
-
-    public void setTotalAmount(double totalAmount) {
-        this.totalAmount = totalAmount;
+    public void setPartList(List<UsedParts> partList) {
+        this.partList = partList;
     }
 }

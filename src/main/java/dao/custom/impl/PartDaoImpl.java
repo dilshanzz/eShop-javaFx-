@@ -14,7 +14,7 @@ import java.util.List;
 public class PartDaoImpl implements PartDao {
     @Override
     public boolean save(Part entity) throws SQLException, ClassNotFoundException {
-        String sql= "INSERT INTO part VALUES(?,?,?)";
+        //String sql= "INSERT INTO part VALUES(?,?,?)";
         Session session = HibernateUtil.getSession();
         Transaction transaction = session.beginTransaction();
         session.save(entity);

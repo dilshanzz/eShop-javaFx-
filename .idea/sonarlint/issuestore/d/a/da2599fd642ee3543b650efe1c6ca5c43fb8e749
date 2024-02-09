@@ -1,51 +1,59 @@
 
-g	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤ãÌÉØ1
-g	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤ãÌÉØ1
-h	java:S112±"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤ãÌÉØ1
-h	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤ãÌÉØ1
-h	java:S112‘"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¤ãÌÉØ1
+g	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ì‘øĞØ1
+g	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ì‘øĞØ1
+h	java:S112­"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ì‘øĞØ1
+h	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ì‘øĞØ1
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Í‘øĞØ1
 Q
-java:S3740)"/Provide the parametrized type for this generic.(³í«†üÿÿÿÿ8¦ãÌÉØ1
+java:S3740("/Provide the parametrized type for this generic.(³í«†üÿÿÿÿ8Í‘øĞØ1
 a
-java:S2583õ"CChange this condition so that it does not always evaluate to "true"(µ„ü…8ÖãÌÉØ1
+java:S2583€"CChange this condition so that it does not always evaluate to "true"(µ„ü…8ö‘øĞØ1
 a
-java:S2583„"CChange this condition so that it does not always evaluate to "true"(µ„ü…8ÖãÌÉØ1
+java:S2583ñ"CChange this condition so that it does not always evaluate to "true"(µ„ü…8ö‘øĞØ1
 ¤
-java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­º–¬şÿÿÿÿ8×ãÌÉØ1
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­º–¬şÿÿÿÿ8÷‘øĞØ1
 I
-java:S1602J",Remove useless curly braces around statement(Âî­™8ÚãÌÉØ1
+java:S1602M",Remove useless curly braces around statement(Âî­™8ş‘øĞØ1
 I
-java:S1602M",Remove useless curly braces around statement(ä¿øû8ÛãÌÉØ1
-a
-java:S2147e"DCombine this catch with the one at line 99, which has the same body.(ıàÑÎ8ÜãÌÉØ1
+java:S1602P",Remove useless curly braces around statement(ä¿øû8ş‘øĞØ1
+b
+java:S2147h"ECombine this catch with the one at line 102, which has the same body.(ıàÑÎ8ÿ‘øĞØ1
 Z
-java:S1854x"=Remove this useless assignment to local variable "allValues".(¡µŞÛ8àãÌÉØ1
+java:S1854{"=Remove this useless assignment to local variable "allValues".(¡µŞÛ8ƒ’øĞØ1
 K
-java:S1481x".Remove this unused "allValues" local variable.(¡µŞÛ8áãÌÉØ1
+java:S1481{".Remove this unused "allValues" local variable.(¡µŞÛ8„’øĞØ1
 c
-java:S2147„"ECombine this catch with the one at line 130, which has the same body.(ıàÑÎ8áãÌÉØ1
+java:S2147‡"ECombine this catch with the one at line 133, which has the same body.(ıàÑÎ8„’øĞØ1
+[
+java:S1854’"8Remove this useless assignment to local variable "list".(éõë‚ÿÿÿÿÿ8†’øĞØ1
 O
-java:S1172ˆ"2Remove this unused method parameter "actionEvent".(‰ú8ããÌÉØ1
+java:S1172‹"2Remove this unused method parameter "actionEvent".(‰ú8†’øĞØ1
+L
+java:S1481’")Remove this unused "list" local variable.(éõë‚ÿÿÿÿÿ8‰’øĞØ1
 c
-java:S2147²"ECombine this catch with the one at line 176, which has the same body.(ıàÑÎ8æãÌÉØ1
+java:S2147®"ECombine this catch with the one at line 172, which has the same body.(ıàÑÎ8‰’øĞØ1
 f
-java:S3986£"HMake sure that week Year "YYYY" is expected here instead of Year "yyyy".(¦Ğ£¨8çãÌÉØ1
+java:S3986Ÿ"HMake sure that week Year "YYYY" is expected here instead of Year "yyyy".(¦Ğ£¨8‹’øĞØ1
 9
-java:S3626È"Remove this redundant jump.(ûÁİ…8É»ÍÉØ1
+java:S3626Ä"Remove this redundant jump.(ûÁİ…8’øĞØ1
 c
-java:S2147Ì"ECombine this catch with the one at line 202, which has the same body.(ıàÑÎ8ìãÌÉØ1
+java:S2147È"ECombine this catch with the one at line 198, which has the same body.(ıàÑÎ8’øĞØ1
 c
-java:S2147æ"ECombine this catch with the one at line 228, which has the same body.(ıàÑÎ8ùãÌÉØ1
+java:S2147â"ECombine this catch with the one at line 224, which has the same body.(ıàÑÎ8’øĞØ1
 P
-java:S1172ì"2Remove this unused method parameter "actionEvent".(ªå¨Ò8ïãÌÉØ1
-H	java:S106î"+Replace this use of System.out by a logger.(¸¨Ø«8ïãÌÉØ1
-M	java:S106ı"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8öãÌÉØ1
-M	java:S106Œ"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8÷ãÌÉØ1
+java:S1172è"2Remove this unused method parameter "actionEvent".(ªå¨Ò8’øĞØ1
+H	java:S106ê"+Replace this use of System.out by a logger.(¸¨Ø«8’øĞØ1
+M	java:S106ù"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8˜’øĞØ1
+M	java:S106ˆ"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8™’øĞØ1
 P
-java:S1172—"2Remove this unused method parameter "actionEvent".(Ÿò–•8øãÌÉØ1
+java:S1172“"2Remove this unused method parameter "actionEvent".(Ÿò–•8š’øĞØ1
 U
-java:S1172›"2Remove this unused method parameter "actionEvent".(ß»ÿªûÿÿÿÿ8øãÌÉØ1
+java:S1172—"2Remove this unused method parameter "actionEvent".(ß»ÿªûÿÿÿÿ8š’øĞØ1
 c
-java:S2147©"ECombine this catch with the one at line 295, which has the same body.(ıàÑÎ8ŸÑÉØ1
+java:S2147¥"ECombine this catch with the one at line 291, which has the same body.(ıàÑÎ8›’øĞØ1
+H
+java:S1128"+Remove this unused import 'dto.tm.OrderTm'.(ğ€º¢8¼“¸ÓØ1
+E
+java:S1128"(Remove this unused import 'entity.Part'.(«ò„´8¼“¸ÓØ1
 O
-java:S1144¼",Remove this unused private "addItem" method.(ÂÚİ³şÿÿÿÿ8ûãÌÉØ1
+java:S1144¸",Remove this unused private "addItem" method.(ÂÚİ³şÿÿÿÿ8’øĞØ1

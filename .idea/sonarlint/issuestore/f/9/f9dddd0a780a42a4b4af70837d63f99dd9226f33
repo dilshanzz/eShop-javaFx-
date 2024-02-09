@@ -1,26 +1,30 @@
 
 p
-java:S1192;"UDefine a constant instead of duplicating this literal "Error: Scene is null" 5 times.(…êÜÚÿÿÿÿÿ
+java:S1192;"UDefine a constant instead of duplicating this literal "Error: Scene is null" 7 times.(…êÜÚÿÿÿÿÿ
+r
+java:S1192e"PDefine a constant instead of duplicating this literal "Admin Dashboard" 3 times.(Ö¦èÌùÿÿÿÿ8Û¤åÓØ1
 c
-java:S11925"MDefine a constant instead of duplicating this literal "/button1.css" 5 times.(ˆ©º˜
+java:S11925"MDefine a constant instead of duplicating this literal "/button1.css" 7 times.(ˆ©º˜
 Z
-java:S2583"CChange this condition so that it does not always evaluate to "true"(µ„ü…
-Y
-java:S2583K"CChange this condition so that it does not always evaluate to "true"(µ„ü…
-Y
-java:S25833"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+java:S2583"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+`
+java:S2583K"CChange this condition so that it does not always evaluate to "true"(µ„ü…8ÎßéÓØ1
 Y
 java:S2583`"CChange this condition so that it does not always evaluate to "true"(µ„ü…
 `
-java:S2583t"CChange this condition so that it does not always evaluate to "true"(µ„ü…8Ä©ğÈØ1
+java:S2583t"CChange this condition so that it does not always evaluate to "true"(µ„ü…8Ğ‹™ËØ1
+Z
+java:S2583·"CChange this condition so that it does not always evaluate to "true"(µ„ü…
+a
+java:S2583ˆ"CChange this condition so that it does not always evaluate to "true"(µ„ü…8ô¤åÓØ1
+Y
+java:S25833"CChange this condition so that it does not always evaluate to "true"(µ„ü…
 œ
 java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³¢ëÍúÿÿÿÿ
 —
 java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒıò¸
-˜
-java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥é‘Ä
-˜
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬ıò
+Ÿ
+java:S1186­"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬ıò8ÏßéÓØ1
 M
 java:S1172-"2Remove this unused method parameter "actionEvent".(ê©¬Àşÿÿÿÿ
 E	java:S106;"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
@@ -33,6 +37,12 @@ E	java:S106h"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
 H
 java:S1172o"2Remove this unused method parameter "actionEvent".(·Äğø
 E	java:S106|"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ
+P
+java:S1172ƒ"2Remove this unused method parameter "actionEvent".(¥é‘Ä8üïÈØ1
+M	java:S106"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ŸüïÈØ1
 U
-java:S1172ˆ"2Remove this unused method parameter "actionEvent".(£ß€Çüÿÿÿÿ8üïÈØ1
-M	java:S106–"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ŸüïÈØ1
+java:S1172˜"2Remove this unused method parameter "actionEvent".(£ß€Çüÿÿÿÿ8î‹™ËØ1
+M	java:S106¦"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8ï‹™ËØ1
+U
+java:S1172±"2Remove this unused method parameter "actionEvent".(‘Ã¶ßùÿÿÿÿ8£¥åÓØ1
+M	java:S106¿"+Replace this use of System.err by a logger.(…êÜÚÿÿÿÿÿ8îßéÓØ1

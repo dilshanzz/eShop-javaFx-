@@ -5,54 +5,51 @@ import dto.OrderDto;
 
 public class OrderTm {
 
-    private  String contact;
-    private String Cname;
-    private String email;
+    private String orderId;
     private String itemName;
     private String description;
     private String category;
-    private String orderId;
     private String date;
     private String status;
+    private  String contact;
+    private String Cname;
+    private String email;
+
     private JFXButton btn;
     public OrderTm() {
     }
 
-    public OrderTm(String contact, String cname, String email, String itemName, String description, String category, String orderId, String date, String status, JFXButton btn) {
-        this.contact = contact;
-        Cname = cname;
-        this.email = email;
+    public OrderTm(String orderId, String itemName, String description, String category, String date, String status, String contact, String Cname, String email, JFXButton btn) {
+        this.orderId = orderId;
         this.itemName = itemName;
         this.description = description;
         this.category = category;
-        this.orderId = orderId;
         this.date = date;
         this.status = status;
+        this.contact = contact;
+        this. Cname = Cname;
+        this.email = email;
         this.btn = btn;
     }
 
-    public String getContact() {
-        return contact;
-    }
-
-    public void setContact(String contact) {
+    public OrderTm(String orderId, String itemName, String description, String category, String date, String status, String contact, String cname, String email) {
+        this.orderId = orderId;
+        this.itemName = itemName;
+        this.description = description;
+        this.category = category;
+        this.date = date;
+        this.status = status;
         this.contact = contact;
-    }
-
-    public String getCname() {
-        return Cname;
-    }
-
-    public void setCname(String cname) {
         Cname = cname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
     }
 
     public String getItemName() {
@@ -79,14 +76,6 @@ public class OrderTm {
         this.category = category;
     }
 
-    public String getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(String orderId) {
-        this.orderId = orderId;
-    }
-
     public String getDate() {
         return date;
     }
@@ -101,6 +90,30 @@ public class OrderTm {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getCname() {
+        return Cname;
+    }
+
+    public void setCname(String Cname) {
+        Cname = Cname;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public JFXButton getBtn() {

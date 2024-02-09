@@ -79,6 +79,7 @@ public class LogInFormController {
             new Alert(Alert.AlertType.ERROR,"Invalid mail or password try again!...").show();
             clearFields();
         }
+
     }
     public void showUserDashBoard() {
 

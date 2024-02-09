@@ -1,5 +1,7 @@
 
-e	java:S116"PRename this field "Cname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠ¡÷
-\	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(Øü£Ñøÿÿÿÿ
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+l	java:S116"PRename this field "Cname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠ¡÷8ñúİÍØ1
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(³®˜ğıÿÿÿÿ8éŞŞÎØ1
+D
+java:S1128"(Remove this unused import 'dto.PartDto'.(ÓÊO8Ø·ÓĞØ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ø·ÓĞØ1

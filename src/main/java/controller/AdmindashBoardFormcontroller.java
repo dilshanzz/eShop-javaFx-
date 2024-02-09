@@ -129,7 +129,23 @@ public class AdmindashBoardFormcontroller {
     }
 
     public void addOdrBtn1OnAction(ActionEvent actionEvent) {
+        Stage stage = (Stage) adbPane.getScene().getWindow();
+        try {
+            Parent root =  FXMLLoader.load(getClass().getResource("/view/PlaceOrderForm.fxml"));
+            Scene scene = new Scene(root);
+            if (scene != null) {
 
+                scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
+
+                stage.setScene(scene);
+                stage.setTitle("Part Information");
+                stage.show();
+            } else {
+                System.err.println("Error: Scene is null");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
@@ -156,5 +172,26 @@ public class AdmindashBoardFormcontroller {
 
     public void reportsBtnOnaction(ActionEvent actionEvent) {
 
+    }
+
+    public void orderDataBtn1OnAction(ActionEvent actionEvent) {
+        Stage stage = (Stage) adbPane.getScene().getWindow();
+
+        try {
+            Parent root =  FXMLLoader.load(getClass().getResource("/view/OrderDataFormController.fxml"));
+            Scene scene = new Scene(root);
+            if (scene != null) {
+
+                scene.getStylesheets().add(getClass().getResource("/button1.css").toExternalForm());
+
+                stage.setScene(scene);
+                stage.setTitle("Admin Dashboard");
+                stage.show();
+            } else {
+                System.err.println("Error: Scene is null");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -30,8 +30,8 @@ java:S1172·"2Remove this unused method parameter "actionEvent".(úß¶Äúÿÿÿÿ
 java:S2147È"ECombine this catch with the one at line 198, which has the same body.(ýàÑÎ
 I
 java:S1172Ó"2Remove this unused method parameter "actionEvent".(ÒìÈŒ
->
+E
 java:S1128
-"(Remove this unused import 'entity.Part'.(«ò„´
-U
-java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ
+"(Remove this unused import 'entity.Part'.(«ò„´8žÀ³ßØ1
+\
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8žÀ³ßØ1

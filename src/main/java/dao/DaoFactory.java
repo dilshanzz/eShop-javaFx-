@@ -23,6 +23,7 @@ public class DaoFactory {
             case AUSER: return (T) new AuserDaoImpl();
             case ITEM: return (T) new ItemDaoImpl();
             case ORDERDATA:return (T) new OrderDataDaoImpl();
+            case USEDPARTS:return (T) new UsedPartImpl();
 //            case INVENTORY:return null;
         }
         return null;

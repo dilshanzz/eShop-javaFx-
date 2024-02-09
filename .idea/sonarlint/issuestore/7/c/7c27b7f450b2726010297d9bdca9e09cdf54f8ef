@@ -1,13 +1,50 @@
 
-s	java:S116P"YRename this field "ColCustomerIdO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÄÊ°ıÿÿÿÿ
-p	java:S116S"[Rename this field "ColCustomerNameO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¸‘Í
-—
-java:S1186k"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£•¸¸
-—
-java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªå¨Ò
-—
-java:S1186s"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(´¢ˆÓ
-—
-java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Âä¨¼
-—
-java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­×¬‰
+h	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112«"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112¸"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112È"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112Ê"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112æ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112’"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+h	java:S112”"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÂâØ1
+Q
+java:S3740v"/Provide the parametrized type for this generic.(ÒøÂ¾üÿÿÿÿ8ßÂâØ1
+Q
+java:S3740y"/Provide the parametrized type for this generic.(ºİêŠøÿÿÿÿ8ßÂâØ1
+M
+java:S3740Ú"/Provide the parametrized type for this generic.(Ÿœ•¨8ßÂâØ1
+z	java:S116g"YRename this field "ColCustomerIdO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÄÊ°ıÿÿÿÿ8ºßÂâØ1
+w	java:S116j"[Rename this field "ColCustomerNameO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¸‘Í8ºßÂâØ1
+Ÿ
+java:S1186ì"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªå¨Ò8ºßÂâØ1
+Ÿ
+java:S1186ğ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(´¢ˆÓ8ºßÂâØ1
+Ÿ
+java:S1186ô"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Âä¨¼8ºßÂâØ1
+c
+java:S2147ª"ECombine this catch with the one at line 168, which has the same body.(ıàÑÎ8ÁßÂâØ1
+P
+java:S1172¯"2Remove this unused method parameter "actionEvent".(£•¸¸8ÅßÂâØ1
+c
+java:S2147¹"ECombine this catch with the one at line 183, which has the same body.(ıàÑÎ8ÅßÂâØ1
+K	java:S108³")Either remove or fill this block of code.(ÅÄÔşÿÿÿÿ8ÆßÂâØ1
+c
+java:S2147É"ECombine this catch with the one at line 199, which has the same body.(ıàÑÎ8ÈßÂâØ1
+s
+java:S2159Ã"VRemove this call to "equals"; comparisons between unrelated types always return false.(úÓş|8ÈßÂâØ1
+c
+java:S2147å"ECombine this catch with the one at line 227, which has the same body.(ıàÑÎ8ÊßÂâØ1
+Y
+java:S1854‚";Remove this useless assignment to local variable "isSaved".(ÆÉªÌ8ÍßÂâØ1
+^
+java:S1854ˆ";Remove this useless assignment to local variable "isSaved".(ôÕ›òúÿÿÿÿ8ÍßÂâØ1
+P
+java:S1172ø"2Remove this unused method parameter "actionEvent".(­×¬‰8ÎßÂâØ1
+J
+java:S1481‚",Remove this unused "isSaved" local variable.(ÆÉªÌ8ÏßÂâØ1
+c
+java:S2147“"ECombine this catch with the one at line 273, which has the same body.(ıàÑÎ8ĞßÂâØ1
+O
+java:S1481ˆ",Remove this unused "isSaved" local variable.(ôÕ›òúÿÿÿÿ8ÑßÂâØ1

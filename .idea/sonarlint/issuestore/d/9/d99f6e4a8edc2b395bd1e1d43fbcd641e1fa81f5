@@ -1,6 +1,8 @@
 
-e	java:S116	"PRename this field "Cname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠ¡÷
-\	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(Ê×‚üÿÿÿÿ
-[	java:S107""AConstructor has 9 parameters, which is greater than 7 authorized.(©´ûÎşÿÿÿÿ
-G
-java:S1128"1Remove this unused import 'javax.persistence.Id'.(ş¹ŞÜ
+e	java:S116
+"PRename this field "Cname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠ¡÷
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(©´ûÎşÿÿÿÿ8ÅìèÎØ1
+^	java:S107$"BConstructor has 10 parameters, which is greater than 7 authorized.(äéÑò8‘¤ÊĞØ1
+X	java:S125z"<This block of commented-out lines of code should be removed.(ªÑ¾Ì8Š‹ÏØ1
+E
+java:S1068"(Remove this unused "list" private field.(£ù”©8—¤ÊĞØ1

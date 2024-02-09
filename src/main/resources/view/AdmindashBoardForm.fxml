@@ -21,7 +21,7 @@
                   <Font size="23.0" />
                </font>
             </Label>
-            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="168.0" layoutY="166.0" onAction="#orderBtn1Onaction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: white;" styleClass="button-fx" stylesheets="@../button1.css" text="Orders" textFill="#fffffb" textOverrun="CLIP">
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="126.0" layoutY="166.0" onAction="#orderBtn1Onaction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: white;" styleClass="button-fx" stylesheets="@../button1.css" text="Orders" textFill="#fffffb" textOverrun="CLIP">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -33,7 +33,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="349.0" layoutY="166.0" onAction="#itemBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Items" textFill="#fffffb" textOverrun="CLIP">
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="277.0" layoutY="166.0" onAction="#itemBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Items" textFill="#fffffb" textOverrun="CLIP">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -45,7 +45,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="517.0" layoutY="166.0" onAction="#cusBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229whiteCB;" styleClass="button-fx" stylesheets="@../button1.css" text="Customers" textFill="#fffffb" textOverrun="CLIP">
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="428.0" layoutY="166.0" onAction="#cusBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229whiteCB;" styleClass="button-fx" stylesheets="@../button1.css" text="Customers" textFill="#fffffb" textOverrun="CLIP">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -57,7 +57,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="688.0" layoutY="166.0" onAction="#inventBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Parts" textFill="#fffffb" textOverrun="CLIP">
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="577.0" layoutY="166.0" onAction="#inventBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="128.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Parts" textFill="#fffffb" textOverrun="CLIP">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -121,6 +121,18 @@
                   </JFXButton>
                </children>
             </AnchorPane>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="BOTTOM" layoutX="725.0" layoutY="166.0" onAction="#orderDataBtn1OnAction" opacity="0.47" prefHeight="226.0" prefWidth="138.0" style="-fx-background-color: #2229CB;" styleClass="button-fx" stylesheets="@../button1.css" text="Order Data" textFill="#fffffb" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/folder_410760.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
          </children>
       </AnchorPane>
    </children>

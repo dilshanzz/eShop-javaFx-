@@ -1,29 +1,44 @@
 package dto;
 
+import java.util.List;
+
 public class OrderDataDto {
-    private String code;
-    private double partsPrice;
-    private double sc;
+    private String orderId;
     private double totalAmount;
+    private double serviceCharge;
+    private double partsPrice;
+    private List<UsedPartsDto> list ;
 
-
-
-
-
-    public OrderDataDto(String code, double partsPrice, double sc, double totalAmount) {
-        this.code = code;
+    public OrderDataDto(String orderId, double totalAmount, double serviceCharge, double partsPrice) {
+        this.orderId = orderId;
+        this.totalAmount = totalAmount;
+        this.serviceCharge = serviceCharge;
         this.partsPrice = partsPrice;
-        this.sc = sc;
+        this.list = list;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(double totalAmount) {
         this.totalAmount = totalAmount;
     }
 
-
-    public String getCode() {
-        return code;
+    public double getServiceCharge() {
+        return serviceCharge;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setServiceCharge(double serviceCharge) {
+        this.serviceCharge = serviceCharge;
     }
 
     public double getPartsPrice() {
@@ -34,19 +49,11 @@ public class OrderDataDto {
         this.partsPrice = partsPrice;
     }
 
-    public double getSc() {
-        return sc;
+    public List<UsedPartsDto> getList() {
+        return list;
     }
 
-    public void setSc(double sc) {
-        this.sc = sc;
-    }
-
-    public double getTotalAmount() {
-        return totalAmount;
-    }
-
-    public void setTotalAmount(double totalAmount) {
-        this.totalAmount = totalAmount;
+    public void setList(List<UsedPartsDto> list) {
+        this.list = list;
     }
 }

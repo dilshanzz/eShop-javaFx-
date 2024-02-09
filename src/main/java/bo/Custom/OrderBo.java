@@ -2,6 +2,7 @@ package bo.Custom;
 
 import bo.SuperBo;
 import dto.OrderDto;
+import dto.tm.OrderTm;
 import entity.Orders;
 
 import java.sql.SQLException;
@@ -15,4 +16,8 @@ public interface OrderBo extends SuperBo {
 
 
     boolean save(OrderDto orderDto) throws SQLException, ClassNotFoundException;
+
+    List<OrderDto> allOrders() throws SQLException, ClassNotFoundException;
+
+    boolean delete(String orderId) throws SQLException, ClassNotFoundException;
 }

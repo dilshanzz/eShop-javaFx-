@@ -1,44 +1,48 @@
 package entity;
 
+import dto.PartDto;
+
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
+
 
 @Entity
 public class Orders {
 
-
-
-    private  String contact;
+    @Id
+    private String orderId;
+    private String contact;
     private String Cname;
     private String email;
     private String itemName;
     private String description;
     private String category;
-    @Id
-    private String orderId;
     private String date;
     private String status;
 
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<OrderData> list;
-
-
-
-    public Orders() {
-    }
-
-    public Orders(String contact, String cname, String email, String itemName, String description, String category, String orderId, String date, String status, List<OrderData> list) {
+    public Orders(String orderId, String contact, String cname, String email, String itemName, String description, String category, String date, String status) {
+        this.orderId = orderId;
         this.contact = contact;
         Cname = cname;
         this.email = email;
         this.itemName = itemName;
         this.description = description;
         this.category = category;
-        this.orderId = orderId;
         this.date = date;
         this.status = status;
-        this.list = list;
+
+    }
+
+    public Orders() {
+
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
     }
 
     public String getContact() {
@@ -89,14 +93,6 @@ public class Orders {
         this.category = category;
     }
 
-    public String getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(String orderId) {
-        this.orderId = orderId;
-    }
-
     public String getDate() {
         return date;
     }
@@ -113,11 +109,4 @@ public class Orders {
         this.status = status;
     }
 
-    public List<OrderData> getList() {
-        return list;
-    }
-
-    public void setList(List<OrderData> list) {
-        this.list = list;
-    }
 }

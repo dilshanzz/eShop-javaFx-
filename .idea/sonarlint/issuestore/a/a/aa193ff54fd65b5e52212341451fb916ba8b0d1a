@@ -37,8 +37,8 @@ java:S2147Ø"ECombine this catch with the one at line 214, which has the same b
 P
 java:S1172Ý"2Remove this unused method parameter "actionEvent".(ÒìÈŒ8–äî¸Ø1
 U
-java:S1128"3Remove this unused import 'dao.custom.CustomerDao'.(‰‡¬«úÿÿÿÿ8¬œð¸Ø1
+java:S1128"3Remove this unused import 'dao.custom.CustomerDao'.(‰‡¬«úÿÿÿÿ8«é³ÑØ1
 \
-java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8¬œð¸Ø1
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8«é³ÑØ1
 M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¬œð¸Ø1
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8«é³ÑØ1

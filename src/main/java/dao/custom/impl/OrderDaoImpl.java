@@ -5,6 +5,7 @@ import dao.custom.OrderDao;
 import dao.custom.OrderDataDao;
 import dao.util.DaoType;
 import dao.util.HibernateUtil;
+import entity.Customer;
 import entity.Orders;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -20,25 +21,11 @@ public class OrderDaoImpl implements OrderDao {
     public boolean save(Orders entity) throws SQLException, ClassNotFoundException {
         Session session = HibernateUtil.getSession();
         Transaction transaction = session.beginTransaction();
+        session.save(entity);
+        transaction.commit();
+        session.close();
+        return true;
 
-        try {
-            session.save(entity);
-            boolean isDataSaved = orderDataDao.saveOrderData(entity.getList());
-
-            if (isDataSaved) {
-                transaction.commit();
-                return true;
-            } else {
-                transaction.rollback();
-                return false;
-            }
-        } catch (Exception e) {
-            transaction.rollback();
-            e.printStackTrace();
-            return false;
-        } finally {
-            session.close();
-        }
     }
 
     @Override
@@ -49,7 +36,13 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public boolean delete(String value) throws SQLException, ClassNotFoundException {
-        return false;
+        Session session = HibernateUtil.getSession();
+        Transaction transaction = session.beginTransaction();
+        session.delete(session.find(Orders.class,value));
+        transaction.commit();
+        session.close();
+
+        return true;
     }
 
     @Override

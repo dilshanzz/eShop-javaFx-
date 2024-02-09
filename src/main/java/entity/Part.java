@@ -1,13 +1,16 @@
 package entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import lombok.*;
+
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
+
 public class Part {
     @Id
-    private  String code;
-    private  String name;
+    private String code;
+    private String name;
     private double price;
 
     public Part() {
@@ -17,6 +20,10 @@ public class Part {
         this.code = code;
         this.name = name;
         this.price = price;
+    }
+
+    public Part(String code) {
+        this.code = code;
     }
 
     public String getCode() {
@@ -42,4 +49,8 @@ public class Part {
     public void setPrice(double price) {
         this.price = price;
     }
+
+
 }
+
+

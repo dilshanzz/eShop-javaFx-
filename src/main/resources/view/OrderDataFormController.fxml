@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXComboBox?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
@@ -10,7 +9,6 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane prefHeight="795.0" prefWidth="1215.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderDataFormController">
    <children>
@@ -75,11 +73,6 @@
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Label layoutX="828.0" layoutY="139.0" text="Total Amount" textFill="#f2ecec">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
             <JFXButton layoutX="470.0" layoutY="38.0" onAction="#searchBtnOOnAction" style="-fx-background-color: #1942ae#1942AEBlock;" text="Search">
                <font>
                   <Font name="System Bold" size="16.0" />
@@ -103,58 +96,17 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <Label layoutX="153.0" layoutY="236.0" text="Part Code" textFill="#f5ecec">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
-            <Label layoutX="452.0" layoutY="237.0" text="Part Price" textFill="#f5ecec">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
-            <JFXButton layoutX="985.0" layoutY="216.0" onAction="#upBtnCOnAction" prefHeight="40.0" prefWidth="109.0" style="-fx-background-color: yellow;" text="Update">
-               <graphic>
-                  <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../img/update.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </JFXButton>
-            <Label layoutX="620.0" layoutY="237.0" text="Service Charge " textFill="#f5ecec">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblPartAmountO" layoutX="546.0" layoutY="237.0" prefHeight="25.0" prefWidth="74.0" text="0.00" textFill="#f5ecec">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblTotalAmountO" layoutX="957.0" layoutY="139.0" prefHeight="25.0" prefWidth="109.0" text="0.00" textFill="#f2ecec">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font>
-            </Label>
             <Label layoutX="153.0" layoutY="188.0" text="Category" textFill="#f5ecec">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <JFXComboBox fx:id="combPartCodeO" layoutX="254.0" layoutY="233.0" prefHeight="31.0" prefWidth="116.0" unFocusColor="#f8f4f4" />
-            <JFXComboBox fx:id="combStatusO" layoutX="945.0" layoutY="77.0" prefHeight="31.0" prefWidth="174.0" unFocusColor="#f8f4f4" />
             <JFXTextField fx:id="txtCatO" layoutX="247.0" layoutY="182.0" prefHeight="37.0" prefWidth="131.0" unFocusColor="#fff8f8">
                <font>
                   <Font size="16.0" />
                </font>
             </JFXTextField>
-            <JFXButton layoutX="885.0" layoutY="216.0" onAction="#saveBtnOnAction" prefHeight="40.0" prefWidth="87.0" style="-fx-background-color: #21c927;" text="Save">
-               <font>
-                  <Font name="System Bold" size="15.0" />
-               </font>
-            </JFXButton>
-            <JFXTextField fx:id="txtScO" layoutX="742.0" layoutY="230.0" prefHeight="37.0" prefWidth="116.0" text="0" unFocusColor="#f2eeee">
+            <JFXTextField fx:id="txtStatusO" layoutX="945.0" layoutY="74.0" prefHeight="37.0" prefWidth="131.0" unFocusColor="#fff8f8">
                <font>
                   <Font size="16.0" />
                </font>

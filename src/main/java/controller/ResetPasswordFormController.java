@@ -22,7 +22,9 @@ import java.util.List;
 
 
 public class ResetPasswordFormController {
+    public void  initialize(){
 
+    }
     @FXML
     private JFXTextField txtPasswordRp1;
 

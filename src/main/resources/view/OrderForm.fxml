@@ -13,57 +13,12 @@
 
 <AnchorPane prefHeight="775.0" prefWidth="1296.0" style="-fx-background-color: #1976d2;" styleClass="pane-custom" stylesheets="@../button1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderFormController">
    <children>
-      <TableView fx:id="odrTableO" layoutX="14.0" layoutY="275.0" prefHeight="283.0" prefWidth="1269.0" style="-fx-background-color: #1976d2;" styleClass="table-custom" stylesheets="@../button1.css">
-         <columns>
-            <TableColumn fx:id="colOdrIdO" prefWidth="77.00003051757812" text="Order Id" />
-            <TableColumn fx:id="colItemNameO" prefWidth="127.0" text="Item Name" />
-            <TableColumn fx:id="colItemDescriptionO" prefWidth="321.0" text="Description" />
-            <TableColumn fx:id="colStatus2" prefWidth="100.0" text="Category" />
-            <TableColumn fx:id="colDateO" prefWidth="59.0" text="Date" />
-            <TableColumn fx:id="colStatusO" prefWidth="71.0" text="Status" />
-            <TableColumn fx:id="colAmountO" prefWidth="111.0" text="Total Amount" />
-            <TableColumn fx:id="colScO" prefWidth="109.0" text="Service charge" />
-            <TableColumn fx:id="colPaO" prefWidth="108.0" text="Parts Amount" />
-            <TableColumn fx:id="colCustomercontactO" prefWidth="97.0" text="Customer Id" />
-            <TableColumn fx:id="colOptionO11" prefWidth="81.0" text="Option" />
-         </columns>
-      </TableView>
       <Label layoutX="153.0" layoutY="36.0" text="Order Id" textFill="#f5ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtOdrIdO" layoutX="254.0" layoutY="30.0" prefHeight="37.0" prefWidth="131.0" unFocusColor="#fff8f8">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </JFXTextField>
-      <Label layoutX="153.0" layoutY="85.0" text="Item Name" textFill="#f5ecec">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </Label>
-      <JFXTextField fx:id="txtItemNameO" layoutX="254.0" layoutY="79.0" prefHeight="37.0" prefWidth="304.0" unFocusColor="#fff8f8">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </JFXTextField>
-      <Label layoutX="153.0" layoutY="139.0" text="Description" textFill="#f5ecec">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </Label>
-      <JFXTextField fx:id="txtDescripO" layoutX="254.0" layoutY="133.0" prefHeight="37.0" prefWidth="497.0" unFocusColor="#fff8f8">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </JFXTextField>
-      <Label layoutX="828.0" layoutY="31.0" text="Date" textFill="#f2ecec">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </Label>
-      <JFXTextField fx:id="txtDateO" layoutX="945.0" layoutY="25.0" prefHeight="37.0" prefWidth="163.0" unFocusColor="#f2eeee">
+      <JFXTextField fx:id="txtOdrIdO" layoutX="295.0" layoutY="30.0" prefHeight="37.0" prefWidth="131.0" unFocusColor="#fff8f8">
          <font>
             <Font size="16.0" />
          </font>
@@ -73,7 +28,7 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="828.0" layoutY="139.0" text="Total Amount" textFill="#f2ecec">
+      <Label layoutX="150.0" layoutY="256.0" text="Total Amount" textFill="#f2ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -93,9 +48,9 @@
       </TableView>
       <TableView fx:id="customerTableO" layoutX="691.0" layoutY="570.0" prefHeight="195.0" prefWidth="537.0" style="-fx-background-color: #1976d2;" styleClass="table-custom" stylesheets="@../button1.css">
          <columns>
-            <TableColumn fx:id="ColCustomerIdO" prefWidth="114.0" text="Customer Id" />
-            <TableColumn fx:id="ColCustomerNameO" minWidth="0.0" prefWidth="140.0" text="Customer Name" />
-            <TableColumn fx:id="colEmailO" prefWidth="275.0" text="Email" />
+            <TableColumn fx:id="ColCustomerIdO" prefWidth="114.0" text="Parts price" />
+            <TableColumn fx:id="ColCustomerNameO" minWidth="0.0" prefWidth="140.0" text="Service Charge" />
+            <TableColumn fx:id="colEmailO" prefWidth="275.0" text="Total charge" />
          </columns>
       </TableView>
       <JFXButton layoutX="19.0" layoutY="11.0" onAction="#backBtnOnAction" prefHeight="40.0" prefWidth="58.0" text=" ">
@@ -116,12 +71,12 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <Label layoutX="153.0" layoutY="236.0" text="Part Code" textFill="#f5ecec">
+      <Label layoutX="153.0" layoutY="108.0" text="Part Code" textFill="#f5ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="452.0" layoutY="237.0" text="Part Price" textFill="#f5ecec">
+      <Label layoutX="153.0" layoutY="164.0" text="Part Price" textFill="#f5ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -135,39 +90,52 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <Label layoutX="620.0" layoutY="237.0" text="Service Charge " textFill="#f5ecec">
+      <Label layoutX="153.0" layoutY="205.0" text="Service Charge " textFill="#f5ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lblPartAmountO" layoutX="546.0" layoutY="237.0" prefHeight="25.0" prefWidth="74.0" text="0.00" textFill="#f5ecec">
+      <Label fx:id="lblPartAmountO" layoutX="295.0" layoutY="164.0" prefHeight="25.0" prefWidth="74.0" text="0.00" textFill="#f5ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label fx:id="lblTotalAmountO" layoutX="957.0" layoutY="139.0" prefHeight="25.0" prefWidth="109.0" text="0.00" textFill="#f2ecec">
+      <Label fx:id="lblTotalAmountO" layoutX="279.0" layoutY="256.0" prefHeight="25.0" prefWidth="109.0" text="0.00" textFill="#f2ecec">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="153.0" layoutY="188.0" text="Category" textFill="#f5ecec">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </Label>
-      <JFXComboBox fx:id="combPartCodeO" layoutX="254.0" layoutY="233.0" prefHeight="31.0" prefWidth="116.0" unFocusColor="#f8f4f4" />
+      <JFXComboBox fx:id="combPartCodeO" layoutX="295.0" layoutY="105.0" prefHeight="31.0" prefWidth="116.0" unFocusColor="#f8f4f4" />
       <JFXComboBox fx:id="combStatusO" layoutX="945.0" layoutY="77.0" prefHeight="31.0" prefWidth="174.0" unFocusColor="#f8f4f4" />
-      <JFXTextField fx:id="txtCatO" layoutX="247.0" layoutY="182.0" prefHeight="37.0" prefWidth="131.0" unFocusColor="#fff8f8">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </JFXTextField>
       <JFXButton layoutX="885.0" layoutY="216.0" onAction="#saveBtnOnAction" prefHeight="40.0" prefWidth="87.0" style="-fx-background-color: #21c927;" text="Save">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <JFXTextField fx:id="txtScO" layoutX="742.0" layoutY="230.0" prefHeight="37.0" prefWidth="116.0" text="0" unFocusColor="#f2eeee">
+      <JFXTextField fx:id="txtScO" layoutX="295.0" layoutY="198.0" prefHeight="37.0" prefWidth="116.0" text="0" unFocusColor="#f2eeee">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <TableView fx:id="odrTableO" layoutX="24.0" layoutY="285.0" prefHeight="271.0" prefWidth="1269.0" style="-fx-background-color: #1976d2;" styleClass="table-custom" stylesheets="@../button1.css">
+         <columns>
+            <TableColumn fx:id="colOdrIdO" prefWidth="77.00003051757812" text="Order Id" />
+            <TableColumn fx:id="colItemNameO" prefWidth="127.0" text="Item Name" />
+            <TableColumn fx:id="colItemDescriptionO" prefWidth="321.0" text="Description" />
+            <TableColumn fx:id="colStatus2" prefWidth="100.0" text="Category" />
+            <TableColumn fx:id="colDateO" prefWidth="59.0" text="Date" />
+            <TableColumn fx:id="colStatusO" prefWidth="71.0" text="Status" />
+            <TableColumn fx:id="colCustomercontactO" prefWidth="111.0" text="Customer Id" />
+            <TableColumn fx:id="colCusName" prefWidth="109.0" text="Name" />
+            <TableColumn fx:id="colEmail" prefWidth="283.0" text="email" />
+         </columns>
+      </TableView>
+      <Label layoutX="434.0" layoutY="164.0" text="QTY" textFill="#f5ecec">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtQty" layoutX="498.0" layoutY="158.0" prefHeight="37.0" prefWidth="116.0" text="0" unFocusColor="#f2eeee">
          <font>
             <Font size="16.0" />
          </font>

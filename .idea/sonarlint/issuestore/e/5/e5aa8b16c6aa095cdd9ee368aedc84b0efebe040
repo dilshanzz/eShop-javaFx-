@@ -1,4 +1,14 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠËš¿
-U
-java:S1128":Remove this unused import 'org.hibernate.criterion.Order'.(¹şÁëùÿÿÿÿ
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠËš¿8ó×İÔØ1
+G	java:S106@"+Replace this use of System.out by a logger.(óµš•8Öå“ÕØ1
+J
+java:S1128"-Remove this unused import 'dto.OrderDataDto'.(óá‘8”ÕØ1
+D
+java:S1128	"(Remove this unused import 'dto.PartDto'.(ÓÊO8”ÕØ1
+H
+java:S1128
+"+Remove this unused import 'dto.tm.OrderTm'.(ğ€º¢8”ÕØ1
+O
+java:S1128"-Remove this unused import 'entity.OrderData'.(ŸÁàÑøÿÿÿÿ8”ÕØ1
+\
+java:S1128":Remove this unused import 'org.hibernate.criterion.Order'.(¹şÁëùÿÿÿÿ8”ÕØ1
