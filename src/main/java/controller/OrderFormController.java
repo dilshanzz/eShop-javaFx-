@@ -254,9 +254,7 @@ public class OrderFormController {
                Integer.parseInt( txtQty.getText()),
                 Double.parseDouble(lblPartAmountO.getText())
         ));
-        for (UsedPartsDto dto: list) {
-            boolean isSaved = UsedPartsBo.save(dto);
-        }
+       // boolean isSaved = usedPartsBo.save()
         for (UsedPartsDto dto : list) {
             price +=dto.getPrice() * Integer.parseInt(txtQty.getText());
         }

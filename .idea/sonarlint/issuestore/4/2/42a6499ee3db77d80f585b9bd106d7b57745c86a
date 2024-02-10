@@ -1,0 +1,14 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Çœıÿÿÿÿ8€Ú­ÔØ1
+m	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯â‘Ù8€Ú­ÔØ1
+…
+java:S4165l"cRemove this useless assignment; "Cname" already holds the assigned value along all execution paths.(“å‚öüÿÿÿÿ8‰Ú­ÔØ1
+l	java:S116"PRename this field "Cname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠ¡÷8ŠÚ­ÔØ1
+c	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(¹Çœıÿÿÿÿ8‹Ú­ÔØ1
+b	java:S107#"AConstructor has 9 parameters, which is greater than 7 authorized.(¦Çÿöıÿÿÿÿ8¾ÖıİØ1
+[
+java:S1854l"9Remove this useless assignment to local variable "Cname".(“å‚öüÿÿÿÿ8Ú­ÔØ1
+Q
+java:S1656l"/Remove or correct this useless self-assignment.(“å‚öüÿÿÿÿ8Ú­ÔØ1
+K
+java:S1128")Remove this unused import 'dto.OrderDto'.(æÑµÈùÿÿÿÿ8Ú­ÔØ1

@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠËš¿
+Z
+java:S2147""DCombine this catch with the one at line 32, which has the same body.(ýàÑÎ
+R
+java:S1128"<Remove this unused import 'dao.custom.impl.CustomerDaoImpl'.(á·Ì‰
